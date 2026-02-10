@@ -54,7 +54,7 @@
                     if (!reason) return;
 
                     // Сохраняем в сделку через пользовательское поле
-                    let customFieldId = 'CUSTOM_FIELD_ID'; // <-- вставьте ID поля "Причина проигрыша"
+                    let customFieldId = '1450594'; // <-- вставьте ID поля "Причина проигрыша"
                     AMOCRM.api.call('PATCH', /api/v4/leads/${d.id}, {
                         custom_fields_values: [
                             {
