@@ -1,14 +1,17 @@
 {
+  "code": "loss_control_widget",
+  "name": "Loss Control",
+  "description": "Контроль потерянных сделок",
+  "version": "1.0.0",
+  "interface_version": 2,
+
   "widget": {
-    "name": "Test Widget",
-    "short_description": "Тестовый виджет",
-    "description": "Первый тестовый виджет",
-    "version": "1.0.0",
-    "interface_version": 2,
-    "init_once": false,
-    "js": "widget.js",
     "locations": [
       "lcard"
-    ]
-  }
+    ],
+
+    "script": "widget.js"
+  },
+
+  "base_url": "https://watereef7.github.com/loss-control-widget/"
 }
