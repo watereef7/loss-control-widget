@@ -1,9 +1,14 @@
 {
-  "code": "loss_control",
-  "name": "Контроль потерянных сделок",
-  "description": "Контроль причин и сумм проигранных сделок",
-  "version": "1.0.0",
   "widget": {
-    "locations": ["lcard"]
+    "name": "Test Widget",
+    "short_description": "Тестовый виджет",
+    "description": "Первый тестовый виджет",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init_once": false,
+    "js": "widget.js",
+    "locations": [
+      "lcard"
+    ]
   }
 }
