@@ -1,20 +1,9 @@
 {
-  "manifest_version": 3,
-  "code": "loss-control-widget",
-  "name": "Контроль потерянных сделок",
-  "description": "Виджет для отслеживания проигранных сделок и анализа причин",
-  "version": "1.0.0",
-  "icon": "https://img.icons8.com/color/96/000000/money-bag.png",
-  "permissions": ["crm"],
-  "locations": [
-    {
-      "location": "lcard",
-      "name": "Виджет в карточке сделки",
-      "settings": {}
-    }
-  ],
-  "entrypoint": {
-    "script": "https://watereef7.github.io/loss-control-widget/widget.js",
-    "css": ""
-  }
+  "name": "Контроль проигранных сделок",
+  "version": "1.0",
+  "description": "Виджет для отслеживания проигранных сделок и причин",
+  "widget_type": "sidebar",
+  "application": "amoCRM",
+  "url": "https://YOUR-DOMAIN.com/widget.js",
+  "settings": []
 }
