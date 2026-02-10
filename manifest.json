@@ -4,6 +4,6 @@
   "description": "Виджет для отслеживания проигранных сделок и причин",
   "widget_type": "sidebar",
   "application": "amoCRM",
-  "url": "https://YOUR-DOMAIN.com/widget.js",
+  "url": "https://watereef7.github.io/loss-control-widget/widget.js",
   "settings": []
 }
