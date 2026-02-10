@@ -1,15 +1,20 @@
 {
-  "code": "loss_control_widget",
+  "manifest_version": 3,
+  "code": "loss-control-widget",
   "name": "Контроль потерянных сделок",
-  "description": "Виджет для контроля проигранных сделок",
+  "description": "Виджет для отслеживания проигранных сделок и анализа причин",
   "version": "1.0.0",
-  "interface_version": 2,
-  "widget": {
-    "script": "widget.js",
-    "css": "",
-    "template": "",
-    "use_iframe": false,
-    "size": [12, 3],
-    "locations": ["lcard"]
+  "icon": "https://img.icons8.com/color/96/000000/money-bag.png",
+  "permissions": ["crm"],
+  "locations": [
+    {
+      "location": "lcard",
+      "name": "Виджет в карточке сделки",
+      "settings": {}
+    }
+  ],
+  "entrypoint": {
+    "script": "https://watereef7.github.io/loss-control-widget/widget.js",
+    "css": ""
   }
 }
